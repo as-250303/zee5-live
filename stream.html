@@ -1,0 +1,45 @@
+
+<html>
+
+  <head>
+    <title>Zee-5</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://www.zee5.com/images/ZEE5_logo.svg">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quattrocento+Sans" rel="stylesheet"/>
+    <script src="https://cdn.plyr.io/3.6.3/plyr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js"></script>
+  </head>
+  <style>
+      
+      body{
+          background: black;
+      }
+      
+  
+      .plyr__video-wrapper::before {
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          z-index: 10;
+          content: '';
+          height: 35px;
+          width: 35px;
+          background: black;
+          background-size: 35px auto, auto;
+      }
+  
+  </style>
+  
+
+  
+    <video controls crossorigin poster="" playsinline>
+      <source type="application/x-mpegURL" src=""> 
+      <track kind="captions" label="EN Sub." src="undefined" srclang="en" default /> </video>
+  </body>
+
+  <script src="steam.js"></script>
+  
+  </html>
